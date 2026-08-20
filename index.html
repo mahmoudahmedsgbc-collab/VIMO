@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIMO - مكافحة الحشرات</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.service h3 {
+    color: #20b2aa;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #555;
+    line-height: 1.8;
+}
+.service button {
+    background-color: #20b2aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.service button:hover {
+    background-color: #168f89;
+    .contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    width: 100%;
+    display: block;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact button {
+    background-color: #20b2aa;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #168f89;
+}
+}
+.service-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 22px;
+  background: #25D366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service-btn:hover {
+  transform: scale(1.05);
+}
+.about {
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 30px;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: auto;
+}
+.contact {
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 20px;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 24px;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 17px;
+}
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+.welcome {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+main .service-btn {
+    margin-top: 5px;
+}
+</style>
+</head>
+<body id="home">
+    <nav>
+        
+        <div class="logo">VIMO</div>
+    <a href="#">الرئيسية</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#about">من نحن</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+    <header>
+    <img src="logo.jpg" alt="VIMO" class="logo">
+
+    <h1>VIMO</h1>
+    <p>شركة مكافحة الحشرات والقوارض</p>
+    <p class="welcome">حلول آمنة وفعالة لحماية منزلك</p>
+</header>
+<section class="services" id="services">
+    <h2>خدماتنا</h2>
+
+    <div class="services-container">
+
+        <div class="service">
+    <h3>مكافحة الحشرات</h3>
+    <p>مكافحة فعالة وآمنة للحشرات داخل المنازل والشركات.</p>
+    <button class="service-btn" onclick="chooseWhatsApp('مكافحة الحشرات')">اطلب الخدمة</button>
+</div>
+
+        <div class="service">
+            <h3>مكافحة القوارض</h3>
+            <p>حلول متخصصة للتخلص من الفئران والقوارض بشكل آمن.</p>
+            <button class="service-btn" onclick="chooseWhatsApp('مكافحة القوارض')">اطلب الخدمة</button>
+        </div>
+
+        <div class="service">
+            <h3>رش وتعقيم</h3>
+            <p>خدمات رش وتعقيم للحفاظ على بيئة نظيفة وآمنة.</p>
+            <button class="service-btn" onclick="chooseWhatsApp('رش وتعقيم')">اطلب الخدمة</button>
+        </div>
+
+    </div>
+</section>
+
+
+    
+
+    <main>
+        <h2>حلول آمنة وفعالة لمكافحة الحشرات</h2>
+        <p>نقدم خدمات متخصصة لمكافحة الحشرات والقوارض للمنازل والشركات بأعلى جودة.</p>
+
+        <button class="service-btn" onclick="chooseWhatsApp('استفسار عام')">تواصل معنا</button>
+    </main>
+<section class="contact" id="contact">
+    <h2>اطلب خدمتك الآن</h2>
+    <p>اترك بياناتك وسنتواصل معك في أقرب وقت.</p>
+
+    <form style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:15px;">
+        <input type="text" placeholder="الاسم بالكامل">
+        <input type="tel" placeholder="رقم الهاتف">
+        
+        <select>
+            <option>اختر الخدمة</option>
+            <option>مكافحة الحشرات</option>
+            <option>مكافحة القوارض</option>
+            <option>رش وتعقيم</option>
+        </select>
+
+        <textarea placeholder="اكتب تفاصيل طلبك"></textarea>
+
+        <button type="submit">إرسال الطلب</button>
+    </form>
+</section>
+
+<section class="services">
+    <h2>خدماتنا</h2>
+
+    <div class="service-cards">
+        <div class="service-card">
+            <h3>مكافحة الحشرات</h3>
+            <p>التخلص من الحشرات المنزلية بطريقة فعالة وآمنة.</p>
+            <button class="service-btn" onclick="chooseWhatsApp('مكافحة الحشرات')">اطلب الخدمة</button>
+        </div>
+
+        <div class="service-card">
+            <h3>مكافحة الصراصير</h3>
+            <p>حلول فعالة للقضاء على الصراصير ومنع عودتها.</p>
+            <button class="service-btn" onclick="chooseWhatsApp('مكافحة الصراصير')">اطلب الخدمة</button>
+        </div>
+
+        <div class="service-card">
+            <h3>مكافحة النمل</h3>
+            <p>معالجة أماكن انتشار النمل والتخلص منه بشكل فعال.</p>
+            <button class="service-btn" onclick="chooseWhatsApp('مكافحة النمل')">اطلب الخدمة</button>
+        </div>
+        
+
+    </div>
+</section>
+<section class="why-us">
+    <h2>لماذا تختارنا؟</h2>
+
+    <div class="why-cards">
+        <div class="why-card">
+            <h3>خبرة وثقة</h3>
+            <p>خبرة في مكافحة الحشرات وتقديم حلول فعالة وآمنة.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>خدمة سريعة</h3>
+            <p>نصل إليك في أسرع وقت ونوفر لك الخدمة المناسبة.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>نتائج فعالة</h3>
+            <p>نستخدم أساليب حديثة تساعد على التخلص من الحشرات.</p>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+  <h2>من نحن</h2>
+  <p>
+    VIMO شركة متخصصة في تقديم خدمات مكافحة الحشرات والقوارض
+    والرش والتعقيم، مع الاهتمام بالجودة والسرعة ورضا العملاء.
+  </p>
+</section>
+<section class="contact" id="contact">
+  <h2>تواصل معنا</h2>
+  <p>للطلب والاستفسار تواصل معنا على واتساب</p>
+  <a href="https://wa.me/201229401552" target="_blank">
+    واتساب: 201229401552
+  </a>
+</section>
+<footer>
+    <h3>VIMO لمكافحة الحشرات</h3>
+    <p>حلول آمنة وفعالة لمكافحة الحشرات</p>
+    <p>© 2026 VIMO - جميع الحقوق محفوظة</p>
+</footer>
+<script>
+function chooseWhatsApp(service) {
+  const message = encodeURIComponent("مرحبًا، أريد طلب خدمة: " + service);
+  const phone = "201229401552";
+
+  window.open("https://wa.me/" + phone + "?text=" + message, "_blank");
+}
+</script>
+</body>
+</html>
